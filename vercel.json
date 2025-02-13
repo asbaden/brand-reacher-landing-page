@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/assets/:path*",
+      "destination": "https://c058c829f265dfd0ba5cf25c182ec84c.r2.cloudflarestorage.com/brandreacher/:path*"
+    }
+  ]
+} 
