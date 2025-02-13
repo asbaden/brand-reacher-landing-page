@@ -115,7 +115,7 @@ html, body {
 }
 .step {
   flex: 1 1 220px;
-  padding: 20px 50px 20px 20px; /* extra right padding to accommodate arrow */
+  padding: 20px;
   margin: 10px;
   color: #fff;
   position: relative;
@@ -141,6 +141,12 @@ html, body {
 
 /* Mobile arrow styling (for screens 768px and below) */
 @media (max-width: 768px) {
+  .step {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px; /* uniform padding */
+  }
+
   .step:not(:last-child)::after {
     content: '↓';
     position: absolute;
